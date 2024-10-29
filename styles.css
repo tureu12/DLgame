@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+canvas {
+    display: block;
+    background-color: #f4f4f4;
+}
+
+.ui-element {
+    position: absolute;
+    font-size: 20px;
+}
+
+#score {
+    top: 10px;
+    right: 10px;
+}
+
+#lives {
+    top: 10px;
+    left: 10px;
+}
+
+#gameOver {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+
+#pressStart {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    display: block;
+}
